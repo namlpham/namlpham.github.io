@@ -1,0 +1,490 @@
+/* Style Sheet for NamPham.com */
+
+/* General Styles */
+body {
+    font-family: 'Geologica', sans-serif;
+    background-color: #FFFAEB;
+    color: #362C28;
+    margin: 0;
+    padding: 0;
+}
+
+/*Navigation*/
+nav{
+    display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0;
+	height: 10vh;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+li:hover {
+	color: #ffcc99;
+	cursor: pointer;
+	text-decoration: underline;
+	transition: 1s ease;
+	text-underline-offset: 1rem;
+	text-decoration-thickness: 0.2rem;
+	text-decoration-color: #ffcc99;
+}
+
+a {
+	text-decoration: none;
+    color: #362C28;
+}
+
+a:visited{
+	 color: inherit;
+}
+
+.logo-name {
+	font-size: 1.5rem;
+	font-weight: bold
+}
+
+.logo-name{
+	font-size: 1.7rem;
+}
+
+.header-switch {
+	position: absolute;
+	top: 5.2%;
+	transform: translateY(-50%)
+}
+
+
+/*----------------Footer Styles----------------*/
+
+footer {
+    background-color: #332a23; /* Dark brown background */
+    color: #fff; /* White text */
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+}
+
+footer h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: .5rem;
+    margin: 0;
+}
+
+footer #footer-line  {
+	font-weight: normal;
+    font-style: italic;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: 2.5rem;
+}
+
+.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.footer-nav a:hover {
+    color: #ffcc99; 
+    transition: 0.3s;
+}
+
+/* Social Icons */
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-bottom: 1rem;
+}
+
+.footer-icons a {
+    color: #fff;
+    transition: 1s;
+    font-size: 1.2rem;
+}
+
+.footer-icons a:hover {
+    opacity: 0.7;
+}
+
+/* Copyright */
+#copywright {
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+
+/*----------------MAIN BODY----------------*/
+
+main {
+    max-width: 890px;
+    margin: 3rem auto 0;
+    padding: 2rem;
+    position: relative;
+}
+
+/*----------------HOME PAGE----------------*/
+#main-greeting {
+/*	display: flex;*/
+/*	justify-content: center;*/
+/*	max-width: 800px;*/
+	font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: .025em;
+	text-align: center;
+/*	text-wrap: balance;*/
+	padding: 2px;
+	margin: 1rem auto 1.5rem; 
+}
+
+#second-greeting {
+	font-size: 1.7rem;
+	letter-spacing: .025em;
+	text-align: center;
+	margin: auto;
+    margin-bottom: 2rem;
+}
+
+#underline {
+	padding-bottom: 13px;
+	background-image: url('Media/Index/red-underline.png'); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+}
+
+
+/*Greeting Text*/
+
+#apartment {
+	float: left;
+	padding: 2rem 2rem 1.3rem 7px;
+}
+
+/*#mainintro {
+	max-width: 890px; 
+	padding: 2rem;
+    margin: 1.5rem auto;
+}*/
+
+#mainintro p {
+	font-size: 1.05rem;
+    font-weight: 200;
+    letter-spacing: .02em; 
+    word-spacing: 0.2rem;
+    line-height: 1.3rem;
+    padding: 7px;
+    text-align: justify;
+}
+
+
+/*----------------ABOUT ME----------------*/
+/*#aboutme {
+	max-width: 890px;
+    margin: 4rem auto 0;
+    padding: 2rem;
+    position: relative;
+}*/
+
+#about-title {
+	font-size: 2rem;
+	margin: 0;
+	padding: 0;
+}
+
+#aboutme p {
+	font-size: 1.05rem;
+    font-weight: 200;
+    letter-spacing: .02em; 
+    word-spacing: 0.2rem;
+    line-height: 1.3rem;
+    padding: 7px;
+    margin: 0 0 1rem;
+}
+
+#profilepic {
+	float: left;
+	width: 30%;
+	height: auto;
+	margin: 0 2.5rem 0.5rem 0;
+	padding-left: 7px;
+}
+
+#approach-section {
+    background-color: #E6C29F; 
+    padding: 2rem;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 1100px;
+    margin: 1rem auto 4rem;
+}
+
+#approach-container {
+	display: flex;
+	justify-content: space-around;
+    gap: 20px;
+}
+
+.approach-cards {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.approach-cards h3 {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+.approach-cards p {
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: .02em; 
+    word-spacing: 0.1rem;
+    line-height: 1.3rem;
+}
+
+#approachpic {
+    max-height: fit-content;
+}
+
+/*----------------CONTACT----------------*/
+#contact-title {
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+form {
+    margin-bottom: 3rem;
+}
+
+#email-link {
+    text-decoration: underline;
+}
+
+.contact-sub{ 
+    padding-left: 2rem;
+    margin-top: 0;
+    font-size: 1.3rem;
+    font-weight: 1rem;
+}
+
+.halfscreen {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+    row-gap: 30px;
+}
+
+.input__label {
+    display: grid;
+    padding: 0.5rem 2rem 2rem;
+    transition: all 0.3s;
+    transform: translateY(0rem);
+}
+
+.input__field {
+    padding: 1rem 2rem 0.5rem;
+    border-radius: 0.2rem;
+    /*background-color: #FFFAEB;*/
+    color: #362C28;
+    font-size: 1rem;
+    border: none;
+    width: 90%;
+    display: block;
+    transition: all 0.3s;
+}
+
+.input__field::placeholder {
+    font-family: 'Geologica', sans-serif; 
+    font-size: inherit; 
+    color: inherit;
+}
+
+.input__field:focus {
+    outline-color: #362C28;
+    border: 1px solid #362C28;
+}
+
+.input__field:not(:placeholder-shown) {
+    border: 1px solid #362C28;
+}
+
+.input__field:placeholder-shown + .input__label {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(-2rem);
+  transform: translateY(-2rem);
+}
+
+legend {
+    font-size: 1.3rem;
+    font-weight: 2rem;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.input-check { display: none;}
+
+.checkbox-tile {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 0.5rem;
+  border: 2.5px solid transparent;
+  background-color: white;
+  box-shadow: 0 5px 10px #00000022;
+  transition: 0.25s ease;
+  cursor: pointer;
+}
+
+.checkbox-group > * {
+  margin: 0.5rem;
+}
+
+
+/* checkbox icon */
+.checkbox-tile::before {
+  content: "";
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid #362C28;
+  border-radius: 50%;
+  top: 0.25rem;
+  left: 0.25rem;
+  transition: 0.25s ease;
+  /*background-image: url("Media/Contact/check.png");
+  background-size: 35px;
+  background-position: 50%*/
+  transform: scale(0);
+}
+
+.checkbox-tile:hover::before {
+  transform: scale(1);
+}
+
+.checkbox-tile:hover {
+  border-color: #362C28;
+}
+
+.checkbox-icon {
+  transition: 0.5s ease;
+  font-size: 2rem;
+  color: #d4c0a1;
+}
+
+.checkbox-label {
+  color: #b39c79;
+  font-size: 0.7rem;
+  text-align: center;
+  transition: 0.4s ease;
+  font-weight: 500;
+}
+
+/* checked */
+.input-check:checked + .checkbox-tile {
+  border-color: #362C28;
+} 
+
+.input-check:checked + .checkbox-tile::before {
+  border-color: #362C28;
+  background-color: #362C28;
+  transform: scale(1);
+} 
+
+.input-check:checked + .checkbox-tile .checkbox-icon,
+.input-check:checked + .checkbox-tile .checkbox-label {
+  color: #362C28;
+}
+
+#message{
+     width: 100%;  
+}
+
+.input {
+    font-family: 'Geologica', sans-serif; 
+    font-size: 1remt; 
+    color: inherit;
+}
+
+/* ---------PROJECT PROPOSAL------------- */
+
+
+/* File input wrapper */
+
+.choose-file {
+    display: block;
+    margin: 0 auto;
+}
+
+.choose-file::-webkit-file-upload-button {
+    visibility: hidden;
+}
+.choose-file::before {
+  display: block;
+  text-align: center;
+  content: 'Upload Proposal';
+  color: #FFFAEB;
+  background: #362C28;
+  border: 1px solid #999;
+  border-radius: 50px;
+  padding: 7px 10px;
+  font-weight: 700;
+  font-size: 10pt;
+}
+
+/*Button container alignment */
+.clear-form,
+.submit-form {
+    padding: 6px 14px;
+    border-radius: 10px;
+    border: 1px solid #888;
+    background-color: #d9d9d9;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+/* Position buttons */
+.clear-form {
+    float: left;
+    margin-left: 40px;
+}
+
+.submit-form {
+    float: right;
+    margin-right: 40px;
+}
+
+
+
+
+
+
+
+
+

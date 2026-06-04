@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name= "author" content="Nam Pham">
+	<meta name="description" content="Nam's home page">
+	<meta name="keywords" content="climate, sustainability, consultancy, consultant, policy, environmental, environment, design">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+
+	<title>Nam Pham</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="logo-name"><a href="index.html">Nam Phạm</a></div> 
+			<div class="header-switch">
+				<a href="#9-5"><img src="Media/Nav/sun.png" style="width:44px;height:44px;"></a>
+				<a href="#5-9"><img src="Media/Nav/moon.png" style="width:40px;height:40px;"></a>
+			</div>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<h2 id="contact-title">Let's Get Connected!</h2>
+		<form>
+		<div class="halfscreen">
+			<div class= "demographics">
+				<p class="contact-sub">Contact me through the form below or <a href="mailto:phamlethienjimmy@gmail.com" id="email-link">email me.</a></p>
+				<span class="input">
+					<input class="input__field" id="firstname" type="text" name="firstname" placeholder="First name" required>
+					<label class="input__label" for="firstname"> First name</label>
+				</span>
+
+				<span class="input">
+					<input class="input__field" id="lastname" type="text" name="lastname" placeholder="Last name" required>
+					<label class="input__label" for="lastname"> Last name </label>
+				</span>
+
+				<span class="input">
+					<input class="input__field" id="email" type="email" name="email" placeholder="Email Address" required>
+					<label class="input__label" for="email"> Email Address </label>
+				</span>
+			</div>
+
+			<div class= "interestedin">
+				<legend>Interested In</legend>
+				<div class="checkbox-group">
+
+					<div class="checkbox"> 
+						<label class= "checkbox-wrapper">
+							<input class="input-check" type="checkbox" value="Consultation and Strategy">
+							<span class= "checkbox-tile">
+									<span class="checkbox-icon"><i class="fa-solid fa-chess"></i> </span>
+									<span class= "checkbox-label">Consultation and Strategy</span>
+							</span>
+						</label> 
+					</div>
+					<div class="checkbox">
+						<label class= "checkbox-wrapper">
+							<input class="input-check" type="checkbox" value="Policy Development">
+							<span class= "checkbox-tile">
+								<span class="checkbox-icon"><i class="fa-solid fa-landmark"></i></span>
+							<span class= "checkbox-label">Policy Development</span>
+							</span>
+						</label>
+					</div>
+					<div class="checkbox">
+						<label class= "checkbox-wrapper">
+							<input class="input-check" type="checkbox" value="Community Program Design">
+							<span class= "checkbox-tile">
+								<span class="checkbox-icon"><i class="fa-solid fa-people-roof"></i></span>
+							<span class= "checkbox-label">Community Program Design</span>
+							</span>
+						</label>
+					</div>
+					<div class="checkbox">
+						<label class= "checkbox-wrapper"> 
+							<input class="input-check" type="checkbox" value="Research and Analytics">
+							<span class= "checkbox-tile">
+								<span class="checkbox-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+							<span class= "checkbox-label">Research and Analytics</span>
+							</span>
+						</label>
+					</div>
+					<div class="checkbox"> 
+						<label class= "checkbox-wrapper"> 
+							<input class="input-check" type="checkbox" value="Community Engagement and Communications">
+							<span class= "checkbox-tile">
+								<span class="checkbox-icon"><i class="fas fa-solid fa-group-arrows-rotate"></i></span>
+							<span class= "checkbox-label">Community Engagement and Communication</span> 
+							</span>
+						</label> 
+					</div>
+					<div class="checkbox">
+						<label class= "checkbox-wrapper"> 
+							<input class="input-check" type="checkbox" value="Fundraising and Grant Development">
+							<span class= "checkbox-tile">
+								<span class="checkbox-icon"><i class="fa-solid fa-money-bill-transfer"></i></span>
+							<span class= "checkbox-label">Fundraising and Grant Development</span>
+							</span>
+						</label> 
+					</div>
+					<div class="checkbox">
+						<label class= "checkbox-wrapper"> 
+							<input class="input-check" type="checkbox" value="Creative Direction">
+							<span class= "checkbox-tile">
+								<span class="checkbox-icon"><i class="fa-solid fa-lightbulb"></i></span>
+							<span class= "checkbox-label">Creative Direction</span>
+							</span>
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+			<p class="contact-sub">Message</p>
+				<textarea class="input" id="message" rows="10" cols="50"> </textarea>
+
+			<p>
+				<label class="contact-sub" for="proposal">Project Proposal</label> <br>
+				<input class="choose-file" type="file" name="proposal">
+			</p>
+
+			<p><input class="clear-form" type="reset" value="Clear Form"></p>
+			<p><input class="submit-form" type="submit" value="Submit"></p>
+
+		</form>
+
+
+	</main>
+
+	<footer>
+		<h3>Nam Phạm</h3>
+    	<div id="footer-line">
+    		How do we build futures where <strong>everyone</strong> can thrive?
+    	</div>
+    
+    	<div class="footer-nav">
+       	 	<a href="index.html">Home</a>
+        	<a href="about.html">About</a>
+        	<a href="contact.html">Contact</a>
+   		 </div>
+
+    	<div class="footer-icons">
+        	<a href="#"><i class="fab fa-instagram"></i></a>
+        	<a href="mailto:phamlethienjimmy@gmail.com"><i class="fas fa-envelope"></i></a>
+        	<a href="http://www.linkedin.com/in/nam-pham-jim" target="blank"><i class="fab fa-linkedin"></i></a>
+    	</div>
+
+    	<div id="copywright">
+        	© 2025 Nam Phạm. <i>All rights reserved</i>
+    	</div>
+	</footer>
+
+</body>
+</html>
